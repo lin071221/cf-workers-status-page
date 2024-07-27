@@ -31,3 +31,11 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+   - id: Worker
+    name: workers.cloudflare.com
+    description: 'Wokers'
+    url: 'https://workers.cloudflare.com'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true   
