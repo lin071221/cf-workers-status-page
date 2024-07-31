@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: www-watermelon-today # unique identifier
-    name: www.watermelon.today
+    name: Watermelon's web
     description: "Watermelon's Website" # default=empty
     url: 'https://www.watermelon.today/' # URL to fetch
     method: GET # default=GET
@@ -25,7 +25,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: Github
-    name: github.com
+    name: Github
     description: 'Here is Github'
     url: 'https://github.com/'
     method: GET
@@ -34,7 +34,7 @@ monitors:
 
   - id: workers-cloudflare-com # unique identifier
     name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'workers.cloudflare.com' # default=empty
     url: 'https://workers.cloudflare.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
