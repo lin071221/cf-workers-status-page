@@ -30,7 +30,7 @@ monitors:
     url: 'https://github.com/'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: workers-cloudflare-com # unique identifier
     name: workers.cloudflare.com
