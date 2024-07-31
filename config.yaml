@@ -24,10 +24,10 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: Macausmp
-    name: macausmp.hopto.org 
-    description: 'Here is Macausmp'
-    url: 'macausmp.hopto.org:25565'
+  - id: Github
+    name: github.com
+    description: 'Here is Github'
+    url: 'https://github.com/'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
