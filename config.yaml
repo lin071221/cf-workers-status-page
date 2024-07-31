@@ -24,13 +24,13 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: Google
-    name: www.google.com
-    description: 'Here is Google.com'
-    url: 'https://www.google.com'
+  - id: Macausmp
+    name: macausmp.hopto.org 
+    description: 'Here is Macausmp'
+    url: 'macausmp.hopto.org:25565'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: workers-cloudflare-com # unique identifier
     name: workers.cloudflare.com
