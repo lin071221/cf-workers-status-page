@@ -41,10 +41,13 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: Deepseek
+  - id: Deepseek # unique identifier
     name: Deepseek
-    description: 'Here is Deepseek'
-    url: 'https://chat.deepseek.com'
-    method: GET
-    expectStatus: 200
-    linkable: ture
+    description: "Deepseek" # default=empty
+    url: 'https://chat.deepseek.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+
